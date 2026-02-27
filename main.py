@@ -1,3 +1,4 @@
+## Application entry point-> Responsibilities Initialize DB, Register workflows, Create FastAPI app, Define routes
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from database import Base, engine, SessionLocal
