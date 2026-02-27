@@ -1,3 +1,4 @@
+##Simulates a message broker, This creates: Loose coupling Event-driven architecture
 from typing import Callable, Dict, List
 
 subscribers: Dict[str, List[Callable]] = {}
