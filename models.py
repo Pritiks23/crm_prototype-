@@ -1,3 +1,5 @@
+## Defines database schema using ORM models. This is your data layer contract.
+
 from sqlalchemy import Column, String, DateTime, JSON, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
