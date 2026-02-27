@@ -16,6 +16,6 @@ def contact_updated_handler(payload):
         db.add(activity)
         db.commit()
     db.close()
-
+## When a contact is updated, run contact_updated_handler.
 def register_workflows():
     subscribe("contact_updated", contact_updated_handler)
