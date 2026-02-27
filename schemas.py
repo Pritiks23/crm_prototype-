@@ -1,3 +1,5 @@
+## Models = database shape
+##Schemas = API shape
 from pydantic import BaseModel
 from typing import Dict, Optional
 
