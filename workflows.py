@@ -1,3 +1,4 @@
+## listens to contact_updated, if status == "lead" creates activity entry
 from event_bus import subscribe
 from database import SessionLocal
 from models import Activity
