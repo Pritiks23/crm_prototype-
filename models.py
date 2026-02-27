@@ -1,4 +1,5 @@
-## Defines database schema using ORM models. This is your data layer contract.
+## Defines database schema, what tables exist in my database, 2 spreadhseets #1 contacts and #2 activities, activities can be Email sent, Call logged, Status changed
+## Workflow triggered, Meeting booked
 
 from sqlalchemy import Column, String, DateTime, JSON, ForeignKey
 from sqlalchemy.orm import relationship
