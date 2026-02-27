@@ -11,6 +11,12 @@ class ContactCreate(BaseModel):
 class ContactUpdate(BaseModel):
     properties: Optional[Dict]
 
+## Properties stored as a dict ex: {
+#   "status": "lead",
+#   "lead_score": 85,
+#   "region": "US"
+# }
+
 class ActivityCreate(BaseModel):
     type: str
     metadata: Dict
