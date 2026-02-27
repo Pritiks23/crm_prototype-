@@ -43,7 +43,7 @@ def update_contact(contact_id: str, data: ContactUpdate, db: Session = Depends(g
 
     db.commit()
     db.refresh(contact)
-
+    ## a cotact was updated tell all listeners
     publish("contact_updated", {"contact": contact})
 
     return contact
