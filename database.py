@@ -1,3 +1,5 @@
+## Defines how your app connects to the database. SessionLocal → creates database sessions (transactions).
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
